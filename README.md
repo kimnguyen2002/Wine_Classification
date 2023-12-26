@@ -21,3 +21,5 @@
 5. Feature input for prediction using a sidebar
 
 6. Run the Streamlit app
+
+7. For the official Streamlit App link: https://wineclassification.streamlit.app/
