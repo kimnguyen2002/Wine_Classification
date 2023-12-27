@@ -159,10 +159,11 @@ st.subheader("Predicted Wine Quality")
 st.write("The predicted wine quality is:", prediction)
 
 # Show a scatter plot of alcohol content vs. quality
-plt.figure(figsize=(8, 6))
-sns.scatterplot(x="alcohol", y="quality", data=df)
+st.subheader('Alcohol Content vs. Quality')
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.scatterplot(x="alcohol", y="quality", data=df, ax=ax)
 plt.title("Alcohol Content vs. Quality")
-st.pyplot()
+st.pyplot(fig)
 
 # Show a table of the first 10 rows of the dataset
 st.subheader("Dataset Preview")
