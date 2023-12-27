@@ -1,5 +1,5 @@
-# Wine_Classification
-
+# White Wine Classification Web App
+ 
 1. Import libraries
 
 2. Load the dataset
